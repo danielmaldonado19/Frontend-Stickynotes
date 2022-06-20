@@ -26,8 +26,22 @@ body {
 }
 .notes .tools button {
     background-color: transparent;
+    /*Then the color of the element will be the same as the container.*/
     color: #ffffff;
     border: none;
     font-size: 1rem;
     margin-left: 0.5rem;
+}
+.notes .main {
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.notes textarea {
+    outline: none;
+    /*outline, the line when we click or focus in a element, for example the text area.*/
+    font-family: inherit;
+    border: none;
+    height: 100%;
+    width: 100%;
 }
