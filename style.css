@@ -5,6 +5,16 @@
 }
 
 body {
+    /*1.*/
+    background-color: #7bdaf3;
+    display: flex;
+    flex-wrap: wrap;
+    /*wrap, se parte si no hay suficiente espacio en la linea. Por lo tanto el objeto continua en la linea siguiente.*/
     font-family: "Poppins", sans-serif;
     margin: 0;
+}
+.notes {
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
 }
