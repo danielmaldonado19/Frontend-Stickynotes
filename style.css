@@ -33,7 +33,7 @@ body {
     margin-left: 0.5rem;
 }
 .notes .main {
-    display: none;
+    /*1.display prop. will be used for edit btn, so display will be none.*/
     height: 100%;
     width: 100%;
 }
@@ -44,4 +44,8 @@ body {
     border: none;
     height: 100%;
     width: 100%;
+}
+
+.notes .hidden {
+    display: none;
 }
