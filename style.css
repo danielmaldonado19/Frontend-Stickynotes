@@ -33,13 +33,13 @@ body {
     margin-left: 0.5rem;
 }
 .notes .main {
-    border: none;
+    display: none;
     height: 100%;
     width: 100%;
 }
 .notes textarea {
     outline: none;
-    /*outline, the line when we click or focus in a element, for example the text area.*/
+    /*outline, refers to the border line when we click or focus in a element, for example the text area.*/
     font-family: inherit;
     border: none;
     height: 100%;
