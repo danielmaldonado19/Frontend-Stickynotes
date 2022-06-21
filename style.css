@@ -9,7 +9,7 @@ body {
     background-color: #7bdaf3;
     display: flex;
     flex-wrap: wrap;
-    /*wrap, se parte si no hay suficiente espacio en la linea. Por lo tanto el objeto continua en la linea siguiente.*/
+    /*wrap, the pbject splits in two if the line its positioned has not enough room for the element, making it continues in the next line.*/
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
